@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1799B79F2C18795800B7FB58 /* SADMPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799B79E2C18795800B7FB58 /* SADMPApp.swift */; };
+		1799B7A12C18795800B7FB58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799B7A02C18795800B7FB58 /* ContentView.swift */; };
+		1799B7A32C18795900B7FB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1799B7A22C18795900B7FB58 /* Assets.xcassets */; };
+		1799B7A72C18795900B7FB58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1799B7A62C18795900B7FB58 /* Preview Assets.xcassets */; };
+		1799B7B12C18795900B7FB58 /* SADMPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799B7B02C18795900B7FB58 /* SADMPTests.swift */; };
+		1799B7BB2C18795900B7FB58 /* SADMPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799B7BA2C18795900B7FB58 /* SADMPUITests.swift */; };
+		1799B7BD2C18795900B7FB58 /* SADMPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799B7BC2C18795900B7FB58 /* SADMPUITestsLaunchTests.swift */; };
+		17E3A0F32C19C2EF00A49A6E /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3A0F22C19C2EF00A49A6E /* VisualEffectView.swift */; };
+		17E3A0F52C19C45700A49A6E /* WebsiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3A0F42C19C45700A49A6E /* WebsiteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1799B7AD2C18795900B7FB58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1799B7932C18795800B7FB58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1799B79A2C18795800B7FB58;
+			remoteInfo = SADMP;
+		};
+		1799B7B72C18795900B7FB58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1799B7932C18795800B7FB58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1799B79A2C18795800B7FB58;
+			remoteInfo = SADMP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1799B79B2C18795800B7FB58 /* SADMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SADMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1799B79E2C18795800B7FB58 /* SADMPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SADMPApp.swift; sourceTree = "<group>"; };
+		1799B7A02C18795800B7FB58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1799B7A22C18795900B7FB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1799B7A42C18795900B7FB58 /* SADMP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SADMP.entitlements; sourceTree = "<group>"; };
+		1799B7A62C18795900B7FB58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1799B7AC2C18795900B7FB58 /* SADMPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SADMPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1799B7B02C18795900B7FB58 /* SADMPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SADMPTests.swift; sourceTree = "<group>"; };
+		1799B7B62C18795900B7FB58 /* SADMPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SADMPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1799B7BA2C18795900B7FB58 /* SADMPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SADMPUITests.swift; sourceTree = "<group>"; };
+		1799B7BC2C18795900B7FB58 /* SADMPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SADMPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17E3A0F22C19C2EF00A49A6E /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		17E3A0F42C19C45700A49A6E /* WebsiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1799B7982C18795800B7FB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1799B7A92C18795900B7FB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1799B7B32C18795900B7FB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1799B7922C18795800B7FB58 = {
+			isa = PBXGroup;
+			children = (
+				1799B79D2C18795800B7FB58 /* SADMP */,
+				1799B7AF2C18795900B7FB58 /* SADMPTests */,
+				1799B7B92C18795900B7FB58 /* SADMPUITests */,
+				1799B79C2C18795800B7FB58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1799B79C2C18795800B7FB58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1799B79B2C18795800B7FB58 /* SADMP.app */,
+				1799B7AC2C18795900B7FB58 /* SADMPTests.xctest */,
+				1799B7B62C18795900B7FB58 /* SADMPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1799B79D2C18795800B7FB58 /* SADMP */ = {
+			isa = PBXGroup;
+			children = (
+				1799B79E2C18795800B7FB58 /* SADMPApp.swift */,
+				17E3A0F22C19C2EF00A49A6E /* VisualEffectView.swift */,
+				1799B7A02C18795800B7FB58 /* ContentView.swift */,
+				17E3A0F42C19C45700A49A6E /* WebsiteView.swift */,
+				1799B7A22C18795900B7FB58 /* Assets.xcassets */,
+				1799B7A42C18795900B7FB58 /* SADMP.entitlements */,
+				1799B7A52C18795900B7FB58 /* Preview Content */,
+			);
+			path = SADMP;
+			sourceTree = "<group>";
+		};
+		1799B7A52C18795900B7FB58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1799B7A62C18795900B7FB58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1799B7AF2C18795900B7FB58 /* SADMPTests */ = {
+			isa = PBXGroup;
+			children = (
+				1799B7B02C18795900B7FB58 /* SADMPTests.swift */,
+			);
+			path = SADMPTests;
+			sourceTree = "<group>";
+		};
+		1799B7B92C18795900B7FB58 /* SADMPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1799B7BA2C18795900B7FB58 /* SADMPUITests.swift */,
+				1799B7BC2C18795900B7FB58 /* SADMPUITestsLaunchTests.swift */,
+			);
+			path = SADMPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1799B79A2C18795800B7FB58 /* SADMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1799B7C02C18795900B7FB58 /* Build configuration list for PBXNativeTarget "SADMP" */;
+			buildPhases = (
+				1799B7972C18795800B7FB58 /* Sources */,
+				1799B7982C18795800B7FB58 /* Frameworks */,
+				1799B7992C18795800B7FB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SADMP;
+			productName = SADMP;
+			productReference = 1799B79B2C18795800B7FB58 /* SADMP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1799B7AB2C18795900B7FB58 /* SADMPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1799B7C32C18795900B7FB58 /* Build configuration list for PBXNativeTarget "SADMPTests" */;
+			buildPhases = (
+				1799B7A82C18795900B7FB58 /* Sources */,
+				1799B7A92C18795900B7FB58 /* Frameworks */,
+				1799B7AA2C18795900B7FB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1799B7AE2C18795900B7FB58 /* PBXTargetDependency */,
+			);
+			name = SADMPTests;
+			productName = SADMPTests;
+			productReference = 1799B7AC2C18795900B7FB58 /* SADMPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1799B7B52C18795900B7FB58 /* SADMPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1799B7C62C18795900B7FB58 /* Build configuration list for PBXNativeTarget "SADMPUITests" */;
+			buildPhases = (
+				1799B7B22C18795900B7FB58 /* Sources */,
+				1799B7B32C18795900B7FB58 /* Frameworks */,
+				1799B7B42C18795900B7FB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1799B7B82C18795900B7FB58 /* PBXTargetDependency */,
+			);
+			name = SADMPUITests;
+			productName = SADMPUITests;
+			productReference = 1799B7B62C18795900B7FB58 /* SADMPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1799B7932C18795800B7FB58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1799B79A2C18795800B7FB58 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1799B7AB2C18795900B7FB58 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1799B79A2C18795800B7FB58;
+					};
+					1799B7B52C18795900B7FB58 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1799B79A2C18795800B7FB58;
+					};
+				};
+			};
+			buildConfigurationList = 1799B7962C18795800B7FB58 /* Build configuration list for PBXProject "SADMP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1799B7922C18795800B7FB58;
+			productRefGroup = 1799B79C2C18795800B7FB58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1799B79A2C18795800B7FB58 /* SADMP */,
+				1799B7AB2C18795900B7FB58 /* SADMPTests */,
+				1799B7B52C18795900B7FB58 /* SADMPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1799B7992C18795800B7FB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1799B7A72C18795900B7FB58 /* Preview Assets.xcassets in Resources */,
+				1799B7A32C18795900B7FB58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1799B7AA2C18795900B7FB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1799B7B42C18795900B7FB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1799B7972C18795800B7FB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1799B7A12C18795800B7FB58 /* ContentView.swift in Sources */,
+				17E3A0F32C19C2EF00A49A6E /* VisualEffectView.swift in Sources */,
+				1799B79F2C18795800B7FB58 /* SADMPApp.swift in Sources */,
+				17E3A0F52C19C45700A49A6E /* WebsiteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1799B7A82C18795900B7FB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1799B7B12C18795900B7FB58 /* SADMPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1799B7B22C18795900B7FB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1799B7BD2C18795900B7FB58 /* SADMPUITestsLaunchTests.swift in Sources */,
+				1799B7BB2C18795900B7FB58 /* SADMPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1799B7AE2C18795900B7FB58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1799B79A2C18795800B7FB58 /* SADMP */;
+			targetProxy = 1799B7AD2C18795900B7FB58 /* PBXContainerItemProxy */;
+		};
+		1799B7B82C18795900B7FB58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1799B79A2C18795800B7FB58 /* SADMP */;
+			targetProxy = 1799B7B72C18795900B7FB58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1799B7BE2C18795900B7FB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1799B7BF2C18795900B7FB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1799B7C12C18795900B7FB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = SADMP/SADMP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SADMP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = slyver.SADMP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1799B7C22C18795900B7FB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = SADMP/SADMP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SADMP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = slyver.SADMP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1799B7C42C18795900B7FB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = slyver.SADMPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SADMP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SADMP";
+			};
+			name = Debug;
+		};
+		1799B7C52C18795900B7FB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = slyver.SADMPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SADMP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SADMP";
+			};
+			name = Release;
+		};
+		1799B7C72C18795900B7FB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = slyver.SADMPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SADMP;
+			};
+			name = Debug;
+		};
+		1799B7C82C18795900B7FB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = slyver.SADMPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SADMP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1799B7962C18795800B7FB58 /* Build configuration list for PBXProject "SADMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1799B7BE2C18795900B7FB58 /* Debug */,
+				1799B7BF2C18795900B7FB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1799B7C02C18795900B7FB58 /* Build configuration list for PBXNativeTarget "SADMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1799B7C12C18795900B7FB58 /* Debug */,
+				1799B7C22C18795900B7FB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1799B7C32C18795900B7FB58 /* Build configuration list for PBXNativeTarget "SADMPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1799B7C42C18795900B7FB58 /* Debug */,
+				1799B7C52C18795900B7FB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1799B7C62C18795900B7FB58 /* Build configuration list for PBXNativeTarget "SADMPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1799B7C72C18795900B7FB58 /* Debug */,
+				1799B7C82C18795900B7FB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1799B7932C18795800B7FB58 /* Project object */;
+}
