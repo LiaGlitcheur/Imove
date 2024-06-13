@@ -2,16 +2,17 @@
 
 SADMPApp est une application macOS développée en SwiftUI qui permet d'exécuter des scripts Shell pour transférer des fichiers via SSH. L'application est conçue pour automatiser le transfert de contenu d'un répertoire local vers un répertoire distant sur un serveur via SSH et SCP.
 
+
+[click me to download](https://github.com/Schecher1/Minecraft-Server-Creator/blob/master/README.md)
+
 ## Fonctionnalités
 
 - **Transfert de fichiers via SSH et SCP** : Utilise Paramiko et SCPClient pour transférer des fichiers depuis un répertoire local vers un serveur distant.
 - **Interface utilisateur simple** : Offre une interface graphique simple avec des boutons pour démarrer les transferts.
-- **Effet visuel** : Utilise `NSVisualEffectView` pour appliquer des effets de flou en arrière-plan.
 
 ## Structure du Projet
 
 - `SADMPApp.swift` : Point d'entrée principal de l'application. Définit la structure de base de l'application et lance la vue principale.
-- `MainView.swift` : Vue principale de l'application contenant les boutons pour démarrer les scripts.
 - `VisualEffectView.swift` : Utilise `NSVisualEffectView` pour ajouter des effets visuels à l'application.
 - `ContentView.swift` et `WebsiteView.swift` : Vues spécifiques pour différentes fonctionnalités de l'application.
 - `Distri.py` : Script Python pour transférer des fichiers via SSH et SCP.
@@ -30,7 +31,7 @@ SADMPApp est une application macOS développée en SwiftUI qui permet d'exécute
 1. **Cloner le dépôt** :
     ```bash
     git clone https://github.com/LiaGlitcheur/Imove.git
-    cd SADMPApp
+    cd Imove
     ```
 
 2. **Configurer l'environnement Python** :
@@ -53,7 +54,7 @@ SADMPApp est une application macOS développée en SwiftUI qui permet d'exécute
 
 ## Auteurs
 
-- **Liam Quatrevaux** - *Développeur principal* - [Votre Profil GitHub](https://github.com/Lia_Glitcheur)
+- **Liam Quatrevaux** - *Développeur principal* - [Votre Profil GitHub](https://github.com/LiaGlitcheur)
 
 
 ## Remerciements
