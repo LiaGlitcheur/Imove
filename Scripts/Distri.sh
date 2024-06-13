@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change to the appropriate directory
-cd /Users/liamquatrevaux/Desktop/Imove/ || exit 1
+cd dossier principal du projet || exit 1
 
 # Activate the virtual environment
 source Imove/bin/activate || exit 2
