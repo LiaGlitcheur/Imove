@@ -3,8 +3,6 @@
 SADMPApp est une application macOS développée en SwiftUI qui permet d'exécuter des scripts Shell pour transférer des fichiers via SSH. L'application est conçue pour automatiser le transfert de contenu d'un répertoire local vers un répertoire distant sur un serveur via SSH et SCP.
 
 
-[Cliquer Pour télécharger l'APP](https://github.com/Schecher1/Minecraft-Server-Creator/blob/master/README.md)
-
 ## Fonctionnalités
 
 - **Transfert de fichiers via SSH et SCP** : Utilise Paramiko et SCPClient pour transférer des fichiers depuis un répertoire local vers un serveur distant.
