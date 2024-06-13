@@ -49,6 +49,9 @@ SADMPApp est une application macOS développée en SwiftUI qui permet d'exécute
 
 2. **Utiliser l'application** :
     - Cliquez sur le bouton "Démarrer le Transfert" pour lancer le script Shell et transférer les fichiers.
+    
+    ![alt text](https://slyver.fr/Imove/app.png)
+
 
 ## Auteurs
 
